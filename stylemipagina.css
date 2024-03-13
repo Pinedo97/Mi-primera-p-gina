@@ -1,0 +1,75 @@
+* {
+    margin: 5;
+    padding: 5;
+    box-sizing: border-box;
+  }
+  
+  /* Esto es un comentario en CSS*/
+  .menu-total {
+    background-color: pink;
+    padding: 20px 0;
+    display: flex;
+    justify-content:center;
+  }
+  
+  .menu-opciones {
+    width: 500px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin-left: 50px;
+  }
+
+/* Para Eliminar las viñetas de las listas y la decoración en los textos*/
+ol,ul { list-style: none}
+a{ text-decoration: none;}
+
+
+  .links {
+    border: 1px solid #fff; 
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .login {
+    margin-left: 20px;
+  }
+
+  .header-container {
+    color: #3a3a3a;
+    background-color: #e3fed6;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logo {
+    width: 500px;
+  }
+  
+  .header {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  
+  .photo-grid-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .photo-grid {
+    display: flex;
+  flex-wrap: wrap;
+  }
+  
+  .photo-grid-item img {
+    width: 300px;
+  }
+  
+  .photo-grid-item {
+    border: 1px solid #fff;
+    width: 300px;
+    height: 300px;
+  }

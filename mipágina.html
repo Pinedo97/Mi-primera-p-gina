@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mi primera web</title>
+    <link rel="stylesheet" href="./stylemipagina.css" />
+    <script src="https://kit.fontawesome.com/7c6b24e5e8.js" crossorigin="anonymous"></script>
+    
+  </head>
+  <!--Se agregó enlace para el icono -->
+  <body>
+    <div class="container">
+        <header class="menu-total">
+            <a href="index.html"><i class="fa-solid fa-shirt"></i></a>
+            <div class="menu-opciones">
+                    <div class="Inicio">Inicio</div>
+                    <div class="Productos">Productos</div>
+                    <div class="Practica"><a href="https://www.google.com/">Google</a></div>
+                    <div class="Contacto"><a href="https://www.instagram.com/alemaura30">Contacto</a></div>
+                    <div>Sale</div>
+                    <div>Paquetes</div>
+            </div>
+<!--  Esto es una imagen que se retiró
+                <img src="recursos/fixed-01.jpg" alt="Recurso Fixed Google">
+-->
+
+        </header>
+        <main id="Seccion-principal">
+          <section class="seccion-1">
+            <div class="Acerca de mi">
+              <h2>Acerca de mi</h2>
+              <p class="Parrafo1">¡Bienvenido a mi página! Aquí, aprenderás más sobre mí.</p>
+              <p class="Parrafo2"> Me llamo Tere, nací en Buenos Aires y vivo en Caballito. Me gusta el helado y salir a pasear en días de sol. Me encantaría aprender a programar para poder ayudar a las personas a mostrar lo que hacen.</p>
+            </div>
+            <div class="acerca-imagen">
+              <img src="./recursos/Imagen principal.jfif" alt="Imagen principal">
+            </div>
+          </section>
+          <section class="seccion-2">
+            <img src="./recursos/Imagines secundaria.jpg" alt="Imagen secundaria">
+          </section>
+        </main>
+
+        <!--FORMULARIO PRÁCTICA-->
+        <form action="" method="post">
+          <ul>
+            <li>
+              <label for="name">Nombre:</label>
+              <input type="text" id="name" name="user_name" />
+            </li>
+            <li>
+              <label for="mail">Correo electrónico:</label>
+              <input type="email" id="mail" name="user_mail" />
+            </li>
+            <li>
+              <label for="msg">Mensaje:</label>
+              <textarea id="msg" name="user_message"></textarea>
+            </li>
+            <li>
+              <label for="país">País</label>
+              <select id="pais" name="pais">
+                <option value="Argentina">Argentina</option>
+                <option value="Mexico">Mexico</option>
+                <option value="Peru">Peru</option>
+              </select>
+            <button type="submit">Enviar</button>
+            </li>
+
+
+          </ul>
+        </form>
+        <!-- Termina el formulario-->
+
+        <footer>
+          <h3>
+            <ul>
+            <!-- PROBANDO EL INNER HTML - QUE NO APARECE EN LA CLASE-->
+              <li class="prueba">Preguntas frecuentes</li>
+              <li>Contacto</li>
+            </ul>
+          </h3>
+        </footer>
+    </div>
+  </body>
+  <script src="mipágina.js"></script>
+</html>
